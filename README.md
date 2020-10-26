@@ -1,13 +1,15 @@
 # react-native-leanplum
-
 If you have already installed Node on your system, make sure it is Node 8.3 or newer.
 
+##### Important note:
+This is forked repo the original code is on https://github.com/Leanplum/Leanplum-ReactNative-SDK
+ 
 ## Getting started using npm registry
 
 ### Inside the React Native App
-1. `$ yarn add react-native-leanplum` or `$ npm install react-native-leanplum`
+1. `$ yarn add @monoku/react-native-leanplum` or `$ npm install @monoku/react-native-leanplum`
 
-2. `$ npx react-native link react-native-leanplum`
+2. `$ npx react-native link @monoku/react-native-leanplum`
 
 3. For iOS only `$ cd ios && pod install`
 
@@ -19,7 +21,7 @@ Please refer to: https://github.com/react-native-community/react-native-push-not
 
 ## Usage
 ```javascript
-import {Leanplum, LeanplumInbox} from 'react-native-leanplum';
+import {Leanplum, LeanplumInbox} from '@monoku/react-native-leanplum';
 
 // TODO: What to do with the module?
 Leanplum.setAppIdForDevelopmentMode('APP_ID', 'DEVELOPMENT_KEY');
@@ -33,8 +35,3 @@ const inbox = await LeanplumInbox.inbox();
 2. Install dependencies for generating builds `$ yarn install`
 
 3. Build the sdk and publish it for local development purposes `$ yarn local-publish`
-
-### Inside the React Native App repository
-
-1. Add this sdk build to the app: `$ npx yalc add react-native-leanplum`
-2. `$ npx react-native link react-native-leanplum`

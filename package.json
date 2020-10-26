@@ -1,7 +1,7 @@
 {
-  "name": "@leanplum/react-native-sdk",
+  "name": "@monoku/react-native-leanplum",
   "title": "React Native Leanplum",
-  "version": "1.0.11",
+  "version": "1.0.1",
   "description": "Mobile Marketing Platform. Integrated. ROI Engine.",
   "main": "dist/index.js",
   "types": "./dist/index.d.ts",
@@ -11,7 +11,7 @@
     "local-publish": "npx yalc publish --push",
     "prepublish": "yarn build",
     "test": "npx jest",
-    "clean": "run-script-os",
+    "clean": "npx run-script-os",
     "clean:windows": "if exist dist rmdir /q /s dist",
     "clean:nix": "rm -rf dist",
     "typedoc": "npx typedoc"

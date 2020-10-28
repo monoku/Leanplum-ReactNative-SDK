@@ -1,4 +1,4 @@
-package com.reactlibrary.leaplum;
+package com.reactlibrary.leanplum;
 
 import android.location.Location;
 

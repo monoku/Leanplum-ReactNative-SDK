@@ -1,4 +1,4 @@
-package com.reactlibrary.leaplum;
+package com.reactlibrary.leanplum;
 
 import com.facebook.react.bridge.ReactApplicationContext;
 import com.facebook.react.bridge.ReactContextBaseJavaModule;

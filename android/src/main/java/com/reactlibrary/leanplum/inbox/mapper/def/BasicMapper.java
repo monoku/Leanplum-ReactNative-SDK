@@ -1,4 +1,4 @@
-package com.reactlibrary.inbox.mapper.def;
+package com.reactlibrary.leanplum.inbox.mapper.def;
 
 import com.facebook.react.bridge.WritableMap;
 

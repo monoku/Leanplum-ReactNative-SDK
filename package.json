@@ -1,7 +1,7 @@
 {
   "name": "@monoku/react-native-leanplum",
   "title": "React Native Leanplum",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Mobile Marketing Platform. Integrated. ROI Engine.",
   "main": "dist/index.js",
   "types": "./dist/index.d.ts",

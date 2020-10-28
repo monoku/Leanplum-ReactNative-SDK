@@ -3,7 +3,7 @@
   ReadableArray (by React Native), Object[], and JSONArray.
  */
 
-package com.reactlibrary.utils;
+package com.reactlibrary.leanplum.utils;
 
 
 import com.facebook.react.bridge.Arguments;

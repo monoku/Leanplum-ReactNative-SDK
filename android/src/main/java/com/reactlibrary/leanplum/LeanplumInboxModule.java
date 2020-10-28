@@ -1,4 +1,4 @@
-package com.reactlibrary;
+package com.reactlibrary.leaplum;
 
 import com.facebook.react.bridge.ReactApplicationContext;
 import com.facebook.react.bridge.ReactContextBaseJavaModule;
@@ -13,8 +13,8 @@ import com.facebook.react.bridge.Arguments;
 import com.facebook.react.modules.core.DeviceEventManagerModule;
 import com.leanplum.callbacks.InboxChangedCallback;
 import com.leanplum.callbacks.InboxSyncedCallback;
-import com.reactlibrary.inbox.mapper.LeanplumInboxMapper;
-import com.reactlibrary.inbox.mapper.LeanplumInboxMessageMapper;
+import com.reactlibrary.leanplum.inbox.mapper.LeanplumInboxMapper;
+import com.reactlibrary.leanplum.inbox.mapper.LeanplumInboxMessageMapper;
 
 public class LeanplumInboxModule extends ReactContextBaseJavaModule {
     private final ReactApplicationContext reactContext;

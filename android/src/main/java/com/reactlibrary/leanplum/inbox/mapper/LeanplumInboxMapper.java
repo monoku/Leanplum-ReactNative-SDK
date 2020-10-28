@@ -1,4 +1,4 @@
-package com.reactlibrary.inbox.mapper;
+package com.reactlibrary.leanplum.inbox.mapper;
 
 import com.facebook.react.bridge.WritableMap;
 import com.facebook.react.bridge.WritableArray;
@@ -6,7 +6,7 @@ import com.facebook.react.bridge.Arguments;
 
 import com.leanplum.LeanplumInbox;
 import com.leanplum.LeanplumInboxMessage;
-import com.reactlibrary.inbox.mapper.def.BasicMapper;
+import com.reactlibrary.leanplum.inbox.mapper.def.BasicMapper;
 
 
 public class LeanplumInboxMapper implements BasicMapper<LeanplumInbox> {

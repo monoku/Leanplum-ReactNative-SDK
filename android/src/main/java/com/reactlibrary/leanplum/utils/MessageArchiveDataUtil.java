@@ -1,4 +1,4 @@
-package com.reactlibrary.utils;
+package com.reactlibrary.leanplum.utils;
 
 import com.facebook.react.bridge.Arguments;
 import com.facebook.react.bridge.WritableMap;
